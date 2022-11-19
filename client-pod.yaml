@@ -10,3 +10,4 @@ spec:
         image: stephengrider/multi-client
         ports:
           - containerPort: 3000
+# kubectl apply -f client-pod.yaml = configure pod/client-pod inside local VM from minkube start command = running container

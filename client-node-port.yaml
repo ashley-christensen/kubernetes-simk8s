@@ -10,3 +10,4 @@ spec:
           nodePort: 31515
     selector:
         componenet: web
+# kubectl apply -f client-node-port.yaml = configure service/NodePort inside running container (VM running from minkubue start command)
